@@ -1,39 +1,52 @@
-{
-  "version": 2.0,
-  "questions": [
-    {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    }
-  ]
-}
+[
+  {
+    "question": "Which of the following networks use circuit switching?",
+    "options": [
+      "the internet",
+      "telephone networks",
+      "satellite network",
+      "wireless sensor networks"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which one is not a step in circuit switching?",
+    "options": [
+      "making the connection",
+      "sending data",
+      "ending the connection",
+      "breaking data into packets"
+    ],
+    "answer": "d"
+  },
+  {
+    "question": "What is the main problem with circuit switching?",
+    "options": [
+      "it is very slow",
+      "it loses data",
+      "wastes resources if no data is sent",
+      "bad sound quality"
+    ],
+    "answer": "c"
+  },
+  {
+    "question": "If the connection break in circuit switching, what happens?",
+    "options": [
+      "call ends",
+      "call is saved",
+      "call continues",
+      "automatically reconnects"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "What happens during the \"Circuit Disconnection\" phase in Circuit Switching?",
+    "options": [
+      "Data is compressed",
+      "A new circuit is created",
+      "Packets are routed through dynamic paths",
+      "All intermediary links between sender and receiver are terminated"
+    ],
+    "answer": "d"
+  }
+]
