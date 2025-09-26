@@ -1,52 +1,52 @@
 [
   {
     "question": "Which of the following networks use circuit switching?",
-    "options": [
-      "the internet",
-      "telephone networks",
-      "satellite network",
-      "wireless sensor networks"
-    ],
-    "answer": "b"
+    "answers": {
+      "a": "the internet",
+      "b": "telephone networks",
+      "c": "satellite network",
+      "d": "wireless sensor networks"
+    },
+    "correctAnswer": "b"
   },
   {
     "question": "Which one is not a step in circuit switching?",
-    "options": [
-      "making the connection",
-      "sending data",
-      "ending the connection",
-      "breaking data into packets"
-    ],
-    "answer": "d"
+    "answers": {
+      "a": "making the connection",
+      "b": "sending data",
+      "c": "ending the connection",
+      "d": "breaking data into packets"
+    },
+    "correctAnswer": "d"
   },
   {
     "question": "What is the main problem with circuit switching?",
-    "options": [
-      "it is very slow",
-      "it loses data",
-      "wastes resources if no data is sent",
-      "bad sound quality"
-    ],
-    "answer": "c"
+    "answers": {
+      "a": "it is very slow",
+      "b": "it loses data",
+      "c": "wastes resources if no data is sent",
+      "d": "bad sound quality"
+    },
+    "correctAnswer": "c"
   },
   {
     "question": "If the connection break in circuit switching, what happens?",
-    "options": [
-      "call ends",
-      "call is saved",
-      "call continues",
-      "automatically reconnects"
-    ],
-    "answer": "a"
+    "answers": {
+      "a": "call ends",
+      "b": "call is saved",
+      "c": "call continues",
+      "d": "automatically reconnects"
+    },
+    "correctAnswer": "a"
   },
   {
     "question": "What happens during the \"Circuit Disconnection\" phase in Circuit Switching?",
-    "options": [
-      "Data is compressed",
-      "A new circuit is created",
-      "Packets are routed through dynamic paths",
-      "All intermediary links between sender and receiver are terminated"
-    ],
-    "answer": "d"
+    "answers": {
+      "a": "Data is compressed",
+      "b": "A new circuit is created",
+      "c": "Packets are routed through dynamic paths",
+      "d": "All intermediary links between sender and receiver are terminated"
+    },
+    "correctAnswer": "d"
   }
 ]

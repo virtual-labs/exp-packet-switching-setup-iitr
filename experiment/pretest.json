@@ -1,52 +1,52 @@
 [
   {
     "question": "What is circuit switching?",
-    "options": [
-      "a) a method of transmitting data in packets",
-      "b) a dedicated communication path between two stations",
-      "c) a technique that stores data at intermediate nodes",
-      "d) a wireless communication method"
-    ],
-    "answer": "b"
+    "answers": {
+      "a": "a method of transmitting data in packets",
+      "b": "a dedicated communication path between two stations",
+      "c": "a technique that stores data at intermediate nodes",
+      "d": "a wireless communication method"
+    },
+    "correctAnswer": "b"
   },
   {
     "question": "_______ switching assumes that the data rate in both directions is the same.",
-    "options": [
-      "a) Circuit",
-      "b) Packet",
-      "c) Message",
-      "d) both b and c"
-    ],
-    "answer": "a"
+    "answers": {
+      "a": "Circuit",
+      "b": "Packet",
+      "c": "Message",
+      "d": "both b and c"
+    },
+    "correctAnswer": "a"
   },
   {
-    "question": "When are resources [like lines] used in circuit switching?",
-    "options": [
-      "a) only sometimes",
-      "b) all the time",
-      "c) randomly",
-      "d) only when connection is made"
-    ],
-    "answer": "d"
+    "question": "When are resources {like lines} used in circuit switching?",
+    "answers": {
+      "a": "only sometimes",
+      "b": "all the time",
+      "c": "randomly",
+      "d": "only when connection is made"
+    },
+    "correctAnswer": "d"
   },
   {
     "question": "The best use of circuit switching is for?",
-    "options": [
-      "a) e-mail",
-      "b) chat",
-      "c) voice calls",
-      "d) file transfer"
-    ],
-    "answer": "c"
+    "answers": {
+      "a": "e-mail",
+      "b": "chat",
+      "c": "voice calls",
+      "d": "file transfer"
+    },
+    "correctAnswer": "c"
   },
   {
     "question": "Why is Circuit Switching less suitable for modern internet usage?",
-    "options": [
-      "a) It is compatible with all cloud services",
-      "b) It uses packet prioritization",
-      "c) It supports high scalability",
-      "d) It requires pre-established circuits and wastes bandwidth"
-    ],
-    "answer": "d"
+    "answers": {
+      "a": "It is compatible with all cloud services",
+      "b": "It uses packet prioritization",
+      "c": "It supports high scalability",
+      "d": "It requires pre-established circuits and wastes bandwidth"
+    },
+    "correctAnswer": "d"
   }
 ]
