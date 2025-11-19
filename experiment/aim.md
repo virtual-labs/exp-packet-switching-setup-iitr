@@ -1,1 +1,1 @@
-#### Circuit Switching: Setup, Transmission, and Teardown
+#### Packet Switching: Setup, Transmission, and Teardown
