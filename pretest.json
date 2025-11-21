@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What is the primary difference between packet switching and circuit switching?",
+    "answers": {
+      "a": "Packet switching uses fixed dedicated paths",
+      "b": "Packet switching sends data in packets independently",
+      "c": "Circuit switching breaks data into packets",
+      "d": "Circuit switching uses routers for dynamic routing"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which of the following is NOT a component of a data packet?",
+    "answers": {
+      "a": "Sequence number",
+      "b": "Error detection bits",
+      "c": "Source and destination addresses",
+      "d": "MAC address table of a switch"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "In packet switching, packets:",
+    "answers": {
+      "a": "Must always follow a single fixed route",
+      "b": "Always arrive in order",
+      "c": "May travel through different paths",
+      "d": "Cannot be retransmitted"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Datagram packet switching is best described as:",
+    "answers": {
+      "a": "Connection-oriented",
+      "b": "Connectionless",
+      "c": "Using fixed bandwidth",
+      "d": "Using dedicated circuits"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In virtual circuit packet switching:",
+    "answers": {
+      "a": "Packets travel independently",
+      "b": "No route is decided beforehand",
+      "c": "All packets follow the same logical path",
+      "d": "Packets may arrive in random order"
+    },
+    "correctAnswer": "c"
+  }
+]

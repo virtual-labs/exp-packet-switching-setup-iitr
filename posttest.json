@@ -1,0 +1,52 @@
+[
+  {
+    "question": "During packet switching, why might packets arrive out of order at the destination?",
+    "answers": {
+      "a": "Because a router deletes some packets",
+      "b": "Due to variable routing paths taken by packets",
+      "c": "Because sequence numbers are removed",
+      "d": "Because routers only support circuit switching"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What is the role of sequence numbers in packet switching?",
+    "answers": {
+      "a": "To reduce packet size",
+      "b": "To ensure proper reassembly at the receiver",
+      "c": "To reduce network congestion",
+      "d": "To avoid routing decisions"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "Which type of packet switching ensures that all packets arrive in order?",
+    "answers": {
+      "a": "Datagram packet switching",
+      "b": "Virtual circuit packet switching",
+      "c": "Circuit switching",
+      "d": "Mixed switching"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What happens if a packet is lost or corrupted in a packet-switched network?",
+    "answers": {
+      "a": "The entire message is discarded",
+      "b": "The network stops transmission",
+      "c": "The lost packet is retransmitted",
+      "d": "The sender must resend the entire file manually"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "Which statement correctly describes packet switching efficiency?",
+    "answers": {
+      "a": "It wastes bandwidth because of fixed path allocation",
+      "b": "It uses network resources only when needed",
+      "c": "It is slower than circuit switching in all cases",
+      "d": "It cannot support large networks"
+    },
+    "correctAnswer": "b"
+  }
+]
