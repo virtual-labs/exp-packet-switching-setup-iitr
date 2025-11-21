@@ -1,52 +1,52 @@
 [
   {
-    "question": "What is circuit switching?",
+    "question": "What is the primary difference between packet switching and circuit switching?",
     "answers": {
-      "a": "a method of transmitting data in packets",
-      "b": "a dedicated communication path between two stations",
-      "c": "a technique that stores data at intermediate nodes",
-      "d": "a wireless communication method"
+      "a": "Packet switching uses fixed dedicated paths",
+      "b": "Packet switching sends data in packets independently",
+      "c": "Circuit switching breaks data into packets",
+      "d": "Circuit switching uses routers for dynamic routing"
     },
     "correctAnswer": "b"
   },
   {
-    "question": "_______ switching assumes that the data rate in both directions is the same.",
+    "question": "Which of the following is NOT a component of a data packet?",
     "answers": {
-      "a": "Circuit",
-      "b": "Packet",
-      "c": "Message",
-      "d": "both b and c"
-    },
-    "correctAnswer": "a"
-  },
-  {
-    "question": "When are resources {like lines} used in circuit switching?",
-    "answers": {
-      "a": "only sometimes",
-      "b": "all the time",
-      "c": "randomly",
-      "d": "only when connection is made"
+      "a": "Sequence number",
+      "b": "Error detection bits",
+      "c": "Source and destination addresses",
+      "d": "MAC address table of a switch"
     },
     "correctAnswer": "d"
   },
   {
-    "question": "The best use of circuit switching is for?",
+    "question": "In packet switching, packets:",
     "answers": {
-      "a": "e-mail",
-      "b": "chat",
-      "c": "voice calls",
-      "d": "file transfer"
+      "a": "Must always follow a single fixed route",
+      "b": "Always arrive in order",
+      "c": "May travel through different paths",
+      "d": "Cannot be retransmitted"
     },
     "correctAnswer": "c"
   },
   {
-    "question": "Why is Circuit Switching less suitable for modern internet usage?",
+    "question": "Datagram packet switching is best described as:",
     "answers": {
-      "a": "It is compatible with all cloud services",
-      "b": "It uses packet prioritization",
-      "c": "It supports high scalability",
-      "d": "It requires pre-established circuits and wastes bandwidth"
+      "a": "Connection-oriented",
+      "b": "Connectionless",
+      "c": "Using fixed bandwidth",
+      "d": "Using dedicated circuits"
     },
-    "correctAnswer": "d"
+    "correctAnswer": "b"
+  },
+  {
+    "question": "In virtual circuit packet switching:",
+    "answers": {
+      "a": "Packets travel independently",
+      "b": "No route is decided beforehand",
+      "c": "All packets follow the same logical path",
+      "d": "Packets may arrive in random order"
+    },
+    "correctAnswer": "c"
   }
 ]

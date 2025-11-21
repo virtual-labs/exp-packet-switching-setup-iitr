@@ -3,7 +3,7 @@
 
 **2**. Initiate a request by selecting the sender and receiver, then click Submit.
 
-**3**. Now, observe the three phases of circuit switching: connection establishment, 
+**3**. Now, observe the three phases of Packet switching: connection establishment, 
 data transmission, and connection termination.
 
 **4**. Please repeat steps 1 to 3 to understand different scenarios.
