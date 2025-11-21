@@ -1,52 +1,52 @@
 [
   {
-    "question": "Which of the following networks use circuit switching?",
+    "question": "During packet switching, why might packets arrive out of order at the destination?",
     "answers": {
-      "a": "the internet",
-      "b": "telephone networks",
-      "c": "satellite network",
-      "d": "wireless sensor networks"
+      "a": "Because a router deletes some packets",
+      "b": "Due to variable routing paths taken by packets",
+      "c": "Because sequence numbers are removed",
+      "d": "Because routers only support circuit switching"
     },
     "correctAnswer": "b"
   },
   {
-    "question": "Which one is not a step in circuit switching?",
+    "question": "What is the role of sequence numbers in packet switching?",
     "answers": {
-      "a": "making the connection",
-      "b": "sending data",
-      "c": "ending the connection",
-      "d": "breaking data into packets"
+      "a": "To reduce packet size",
+      "b": "To ensure proper reassembly at the receiver",
+      "c": "To reduce network congestion",
+      "d": "To avoid routing decisions"
     },
-    "correctAnswer": "d"
+    "correctAnswer": "b"
   },
   {
-    "question": "What is the main problem with circuit switching?",
+    "question": "Which type of packet switching ensures that all packets arrive in order?",
     "answers": {
-      "a": "it is very slow",
-      "b": "it loses data",
-      "c": "wastes resources if no data is sent",
-      "d": "bad sound quality"
+      "a": "Datagram packet switching",
+      "b": "Virtual circuit packet switching",
+      "c": "Circuit switching",
+      "d": "Mixed switching"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "What happens if a packet is lost or corrupted in a packet-switched network?",
+    "answers": {
+      "a": "The entire message is discarded",
+      "b": "The network stops transmission",
+      "c": "The lost packet is retransmitted",
+      "d": "The sender must resend the entire file manually"
     },
     "correctAnswer": "c"
   },
   {
-    "question": "If the connection break in circuit switching, what happens?",
+    "question": "Which statement correctly describes packet switching efficiency?",
     "answers": {
-      "a": "call ends",
-      "b": "call is saved",
-      "c": "call continues",
-      "d": "automatically reconnects"
+      "a": "It wastes bandwidth because of fixed path allocation",
+      "b": "It uses network resources only when needed",
+      "c": "It is slower than circuit switching in all cases",
+      "d": "It cannot support large networks"
     },
-    "correctAnswer": "a"
-  },
-  {
-    "question": "What happens during the \"Circuit Disconnection\" phase in Circuit Switching?",
-    "answers": {
-      "a": "Data is compressed",
-      "b": "A new circuit is created",
-      "c": "Packets are routed through dynamic paths",
-      "d": "All intermediary links between sender and receiver are terminated"
-    },
-    "correctAnswer": "d"
+    "correctAnswer": "b"
   }
 ]
