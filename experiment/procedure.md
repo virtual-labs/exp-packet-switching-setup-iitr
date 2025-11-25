@@ -1,7 +1,7 @@
 
-**1**. Click on the Start button.
+**1**. Click on the **Start** button.
 
-**2**. Initiate a request by selecting the sender and receiver, then click Submit.
+**2**. Initiate a request by selecting the sender and receiver, then click **Submit**.
 
 **3**. Now, observe the three phases of Packet switching: connection establishment, 
 data transmission, and connection termination.
