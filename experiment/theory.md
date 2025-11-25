@@ -28,7 +28,9 @@ reassembled.
 #### Structure of a Data Packet
 
  <center>               
-    <img style="mix-blend-mode: darken;" src="images/iimage1.png" alt="Hubs"><br>     
+    <!-- <img style="mix-blend-mode: darken;" src="images/iimage1.png" alt="Hubs"> -->
+    <img src="images/iimage1.png" alt="Hubs" width="500" height="300">
+<br>     
       <figcaption><strong>Fig. 1 Structure of Data Packet</strong></figcaption>
    </center>
 
@@ -60,7 +62,9 @@ If any packet is lost or corrupted, the system requests retransmission.
 #### Packet Switching Working Diagram
 
 <center>               
-    <img style="mix-blend-mode: darken;" src="images/image2.jpg" alt="Hubs"><br>     
+    <!-- <img style="mix-blend-mode: darken;" src="images/image2.jpg" alt="Hubs"> -->
+    <img src="images/image2.jpg" alt="Hubs" width="300" height="200">
+<br>     
       <figcaption><strong>Fig. 2 Packet Switching working diagram</strong></figcaption>
    </center>
 
